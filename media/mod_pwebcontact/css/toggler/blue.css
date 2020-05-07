@@ -1,0 +1,85 @@
+﻿/**
+* @version 3.0
+* @package PWebContact
+* @copyright © 2013 Perfect Web sp. z o.o., All rights reserved. http://www.perfect-web.co
+* @license GNU General Public License http://www.gnu.org/licenses/gpl-3.0.html
+* @author Piotr Moćko
+*/
+
+/* Font family and size */
+.pwebcontact_toggler.pweb-toggler-blue {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+.pwebcontact_toggler.pweb-toggler-blue .pweb-icon {
+	font-size: 16px;
+}
+
+/* Toggler tab */
+.pwebcontact_toggler.pweb-toggler-blue {
+    font-family: HelveticaNeueCyr-Bold,sans-serif;
+    color: #1eb2ff;
+    text-decoration: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 4px solid #1eb2ff;
+    padding: 4px 10px;
+    width: 146px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: none;
+    text-shadow: none;
+    background: #fff;
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-blue {
+	border-color: #002a80 #0044cc #0044cc;
+	border-color: rgba(0,0,0,0.25) rgba(0,0,0,0.1) rgba(0,0,0,0.1);
+	
+	background-image: -moz-linear-gradient(bottom,#08c,#0044cc);
+	background-image: -ms-linear-gradient(bottom,#08c, #0044cc);
+	background-image: -webkit-gradient(linear,0 100%,0 0,from(#08c),to(#0044cc));
+	background-image: -webkit-linear-gradient(bottom,#08c,#0044cc);
+	background-image: -o-linear-gradient(bottom,#08c,#0044cc);
+	background-image: linear-gradient(to top,#08c,#0044cc);
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-blue {
+	border-color: #0044cc #0044cc #0044cc #002a80;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	
+	background-image: -moz-linear-gradient(right,#08c,#0044cc);
+	background-image: -ms-linear-gradient(right,#08c, #0044cc);
+	background-image: -webkit-gradient(linear,100% 0,0 0,from(#08c),to(#0044cc));
+	background-image: -webkit-linear-gradient(right,#08c,#0044cc);
+	background-image: -o-linear-gradient(right,#08c,#0044cc);
+	background-image: linear-gradient(to left,#08c,#0044cc);
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-blue {
+	border-color: #0044cc #002a80 #0044cc #0044cc;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.25) rgba(0,0,0,0.1) rgba(0,0,0,0.1);
+	
+	background-image: -moz-linear-gradient(left,#08c,#0044cc);
+	background-image: -ms-linear-gradient(left,#08c, #0044cc);
+	background-image: -webkit-gradient(linear,0 0,100% 0,from(#08c),to(#0044cc));
+	background-image: -webkit-linear-gradient(left,#08c,#0044cc);
+	background-image: -o-linear-gradient(left,#08c,#0044cc);
+	background-image: linear-gradient(to right,#08c,#0044cc);
+}
+
+.pwebcontact_toggler.pweb-toggler-blue:hover,
+.pwebcontact_toggler.pweb-toggler-blue.pweb-opened {
+	color: #fff;
+    background: #1EB2FF;
+}
+.pweb-top .pwebcontact_toggler.pweb-toggler-blue:hover,
+.pweb-top .pwebcontact_toggler.pweb-toggler-blue.pweb-opened {
+	background-position: 0 30px;
+}
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-blue:hover,
+.pweb-vertical.pweb-left .pwebcontact_toggler.pweb-toggler-blue.pweb-opened {
+	background-position: -30px 0;
+}
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-blue:hover,
+.pweb-vertical.pweb-right .pwebcontact_toggler.pweb-toggler-blue.pweb-opened {
+	background-position: 30px 0;
+}
